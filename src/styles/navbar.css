@@ -1,0 +1,40 @@
+/* * { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 1px solid blue }
+* * * * { outline: 1px solid purple }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 2px dotted green }
+* * * * * * * { outline: 2px dotted blue }
+* * * * * * * * { outline: 2px dotted purple } */
+
+
+
+.nav-container {
+    display: flex;
+    background-color: #809bce;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+}
+
+.nav-menu {
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-links {
+    color:white;
+    text-decoration: none;
+    font-family: 'Poppins', serif;
+    font-size: 15pt;
+    margin-right: 50px;
+}
+
+.nav-links:hover {
+    color: #3A3B3C;
+    transition: all 0.2s ease-out;
+    transform: translateY(-5px);
+    padding-bottom: 5px;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+.title-container {
+    height: 90vh;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 100px;
+}
+
+
+.greeting {
+    font-size: 18pt;
+    margin: 0px;
+    margin-top: 100px;
+    color: #3A3B3C;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 85pt;
+    color: #a7bed3;
+    margin: -5px;
+}
+
+.school {
+    font-size: 60pt;
+    margin: 0px;
+    color: #3A3B3C;
+}
+
+.me {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    align-self:center;
+}
+
+.typer {
+    color: #3A3B3C;
+    font-size: 25pt;
+    margin-top: 100px;
+}
+
+#scroll {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    visibility: hidden;
+    animation: showAfter 2s 12s ease-out forwards,
+               bounce 2s 12s 3 backwards;
+}
+
+@keyframes showAfter {
+    from {visibility: hidden; opacity: 0;}
+    to   { visibility: visible; opacity: 1;}
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+.arrow {
+    fill: #809bce;
+}
+
+.arrow:hover {
+    fill: #3A3B3C;
+    transform: translateY(-3px);
+}
