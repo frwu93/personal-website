@@ -5,6 +5,8 @@
   padding: min(100px, 7vh) 10% 0;
   margin: auto;
   max-width: 900px;
+  font-family: 'Poppins', sans-serif;
+
  }
  
  .experience-header {
@@ -21,7 +23,7 @@
   
   .react-tabs__tab-list {
     min-height: 200px;
-    min-width: min(250px, 100%);
+    min-width: min(275px, 100%);
     margin: 0;
     padding: 0;
     color: white;
@@ -96,7 +98,7 @@
   
   .bullet-list li{
     margin-bottom: 10px;
-    font-size: 13pt;
+    font-size: 12pt;
     padding-left: 5px;
 }
 

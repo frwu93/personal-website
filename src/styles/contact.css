@@ -7,12 +7,14 @@
     align-items: center;
     justify-content: center;
     margin: auto;
+    
 }
 
 .contact-header{
     display: flex;
     color: #809bce;
     font-size: 15pt;
+    
 }
 
 .blurb{
