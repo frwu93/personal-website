@@ -1,0 +1,170 @@
+ .experience-container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: min(100px, 7vh) 10% 0;
+  margin: auto;
+  max-width: 900px;
+ }
+ 
+ .experience-header {
+    display: flex;
+    color: #809bce;
+    font-size: 15pt;
+    margin-bottom: 30px;
+ }
+  .react-tabs {
+    display: flex;
+    width: min(1000px, 100%);
+    height: 500px;
+  }
+  
+  .react-tabs__tab-list {
+    min-height: 200px;
+    min-width: min(250px, 100%);
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow: auto;
+
+  }
+  
+  .react-tabs__tab {
+    display: flex;
+    height: 60px;
+    cursor: pointer;
+    color: #3A3B3C;
+    align-items: center;
+    padding: 0 20px;
+    border-left: 4px solid #809bce;
+    white-space: nowrap;
+  }
+  
+  .react-tabs__tab--selected {
+    background: #809bce;
+    border-left: 4px solid #809bce;
+    color: white;
+    text-align: center;
+    outline: none;
+  }
+
+  .react-tabs__tab:hover {
+    background: #809bce;
+    border-left: 4px solid #809bce;
+    color: white;
+    text-align: center;
+  }
+  
+   
+  .react-tabs__tab-panel--selected {
+    margin: 15px 0 15px 50px;
+  }
+  
+  .panel-content {
+    color: #3A3B3C;
+  }
+
+  .job-position{
+      color: #809bce;
+      font-size: 20pt;
+      font-weight:600;
+      margin-bottom: 10px;
+  }
+
+  .location{
+    color: #809bce;
+    font-weight: 500;
+    font-size: 12pt;
+  }
+  .dates{
+      color: #809bce;
+      margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 12pt;
+  }
+
+  .bullet-list{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .bullet-list ul{
+      list-style: disc;
+  }
+
+
+  
+  .bullet-list li{
+    margin-bottom: 10px;
+    font-size: 13pt;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 500px){
+
+  .experience-header{
+    font-size: 12pt;
+  }
+
+  .react-tabs {
+    flex-direction: column;
+    
+  }
+
+  .react-tabs__tab-list {
+    display: flex;
+    min-height: calc(max(5vh, 40px) + 15px);
+  }
+
+  .react-tabs__tab{
+    padding: 0 10px;
+    height: max(5vh, 40px);
+    border-left: none;
+    border-bottom: 4px solid #809bce;
+  }
+
+  .react-tabs__tab-panel--selected {
+    margin: 0;
+    padding-top:30px;
+  }
+
+  .job-position{
+    font-size: 16pt;
+  }
+
+  .location{
+    font-size: 10pt;
+  }
+  .dates{
+      font-size: 10pt;
+  }
+  .bullet-list ul{
+    padding: 0 7%;
+  }
+  .bullet-list li{
+    font-size: 12pt;
+  }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 500px){
+  .react-tabs__tab-list {
+    min-width: min(240px, 100%);
+  }
+  
+  .react-tabs__tab{
+    padding: 0 10px;
+  }
+
+  
+  .bullet-list ul{
+    padding: 0 7%;
+  }
+
+  .react-tabs__tab-panel--selected {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+}

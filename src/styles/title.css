@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&family=Source+Sans+Pro&family=Ubuntu&display=swap');
 .title-container {
-    height: 90vh;
-    margin-top: 40px;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max(90vh,600px);
+    padding-top: calc(70px + 7vh);
+    flex-direction: column;
+    margin: auto;
 }
 
 .title{
     display: flex;
     justify-content: center;
-
+    padding: 0 10%;
+    max-width: 1000px;
 }
 
 .wrapper {
@@ -20,7 +25,7 @@
 
 
 .greeting {
-    font-size: 18pt;
+    font-size: clamp(8pt, 2.5vw, 20pt);
     margin: 0px;
     margin-top: 100px;
     color: #3A3B3C;
@@ -28,19 +33,19 @@
 }
 
 .name {
-    font-size: 85pt;
+    font-size: clamp(14pt, 7.5vw, 70pt);
     color: #a7bed3;
     margin: -5px;
 }
 
 .school {
-    font-size: 60pt;
+    font-size: clamp(13pt, 6vw, 50pt);
     margin: 0px;
     color: #3A3B3C;
 }
 
 .me {
-    width: 300px;
+    width: clamp(100px, 27vw, 375px);
     height: auto;
     border-radius: 20px;
     align-self:center;
@@ -48,17 +53,21 @@
 
 .typer {
     color: #3A3B3C;
-    font-size: 25pt;
-    margin-top: 100px;
+    font-size: clamp(7pt, 2.2vw, 20pt);
+    margin-top: 10px;
+    z-index: -1;
 }
 
 #scroll {
     display: flex;
+    aspect-ratio: 1;
+    width: 1vw;
     justify-content: center;
     margin-top: 110px;
     visibility: hidden;
     animation: showAfter 2s 12s ease-out forwards,
                bounce 2s 12s 3 backwards;
+    /* z-index: -1; */
 }
 
 @keyframes showAfter {
@@ -86,3 +95,87 @@
     fill: #3A3B3C;
     transform: translateY(-3px);
 }
+
+@media only screen and (max-width: 500px){
+    .me{
+        display: none;
+    }
+
+    .title-container {
+        margin-top: -10px;
+        padding-top: 10vh;
+        justify-content: center;
+        padding-bottom: 10vh;
+        /* width: 100%; */
+    }
+
+    .wrapper {
+        margin: 0;
+        /* gap: 0.75rem; */
+    }
+
+    .greeting{
+        font-size: 4.7vw;
+    }
+
+    .name{
+        font-size: 14vw;
+    }
+
+    .school{
+        font-size: 11.2vw;
+    }
+
+    .typer{
+        margin-top: 30px;
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px){
+    .title-container {
+        margin-top: 70px;
+        justify-content: center;
+        padding-bottom: 10vh;
+    }
+
+    .title{
+        gap: 0;
+    }
+
+    .greeting{
+        font-size: 2.7vw;
+    }
+
+    .name{
+        font-size: 8vw;
+    }
+
+    .school{
+        font-size: 6.4vw;
+    }
+    .typer{
+        font-size: 2.5vw;
+    }
+
+    
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    .title-container {
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+  }
+
+
+  @media only screen and (max-width: 900px) and (orientation: landscape) {
+    .title-container {
+        padding: 0;
+        margin: 0;
+    }
+
+  }

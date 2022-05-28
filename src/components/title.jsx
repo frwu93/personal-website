@@ -7,7 +7,7 @@ import { FaArrowDown } from "react-icons/fa";
 class Title extends Component {
     render() {
       return (
-        <div className="title-container">
+        <div className="title-container" id="title">
           <div className='title'>
             <div className="wrapper">
               <p className='greeting'>Hi, my name is</p>
@@ -23,7 +23,8 @@ class Title extends Component {
                       "I'm a problem solver.",
                       "Scroll down to learn more about me!"
                     ]}
-                    backDelay={1000}
+                    backDelay={1500}
+                    startDelay={1000}
                     showCursor
                     cursorChar="|"
                   />

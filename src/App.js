@@ -1,18 +1,25 @@
 import './App.css';
 import Title from './components/title.jsx'
 import About from './components/about.jsx'
-import Education from './components/education.jsx'
+import Experience from './components/experience.jsx'
 import Navigation from './components/navbar.jsx'
+import Projects from './components/projects.jsx'
+import Contact from './components/contact.jsx'
 
 function App() {
   return (
-    <div> 
-      <div>
-        <Navigation></Navigation>
-      </div>
+    <div className='content'> 
+      <Navigation></Navigation>
       <Title></Title>
       <About></About>
-      <Education> </Education>
+      <Experience> </Experience>
+      <Projects></Projects>
+      <Contact></Contact>
+      {/* <Title></Title>
+      <About></About>
+      <Experience> </Experience>
+      <Projects></Projects>
+      <Contact></Contact> */}
     </div>
     
   );
