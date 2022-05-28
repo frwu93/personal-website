@@ -72,9 +72,9 @@ class Navigation extends Component {
       return (
         <div className="nav-wrapper" data-visible={this.state.scrollVisible}>
         <div className="nav-container">
-          <div className="logo">
+          {/* <div className="logo">
             <a href="#title"><img src={logo} alt="Logo"/></a>
-          </div>
+          </div> */}
           <div className="mobile-nav-toggle" aria-controls="navigation" aria-expanded={this.state.open}
           onClick={this.handleToggle} data-visible={this.state.open}>
               <div/>

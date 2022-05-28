@@ -21,6 +21,13 @@ class Projects extends Component {
                 <h2>Mini-Amazon</h2>
                 <p> A miniature version of Amazon's marketplace. This full-stack project simulates an online marketplace 
                   with thousands of buyers, sellers, and products. Back-end built using Flask on a PostgreSQL database with HTML/CSS front-end.</p>
+                <ul className="tech-list">
+                  <li>Python</li>
+                  <li>SQL</li>
+                  <li>Flask</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                </ul>
               </div>
           </div>
           <div className="feature-container" data-visible="desktop-only">
@@ -28,6 +35,12 @@ class Projects extends Component {
                 <h2>Oncology Research</h2>
                 <p>Research project conducted under Dr. Andrew Allen, Ph.D. Using memory-efficient bit-vectors to represent cancer mutations in the human genome. Seeking to 
                   identify significant cancer-inducing mutations in non-coding DNA.</p>
+                <ul className="tech-list">
+                  <li>Python</li>
+                  <li>Pandas</li>
+                  <li>Jupyter</li>
+                  <li>R</li>
+                </ul>
               </div>
               <div className="right-img">
                 <img src={rsrch} alt="Research Poster"/>
@@ -41,6 +54,12 @@ class Projects extends Component {
                 <h2>Oncology Research</h2>
                 <p>Research project conducted under Dr. Andrew Allen, Ph.D. Using memory-efficient bit-vectors to represent cancer mutations in the human genome. Seeking to 
                   identify significant cancer-inducing mutations in non-coding DNA.</p>
+                <ul className="tech-list">
+                  <li>Python</li>
+                  <li>Pandas</li>
+                  <li>Jupyter</li>
+                  <li>R</li>
+                </ul>
               </div>
               
           </div>
@@ -52,6 +71,11 @@ class Projects extends Component {
                 <h2>Bloons Tower Defense</h2>
                 <p> Recreation of the popular Bloons Tower Defense game. Back-end built using Java and front-end using JavaFX 
                   with incorporation of SOLID principles. Final project for CS 307 (Software Design) at Duke. </p>
+                <ul className="tech-list">
+                  <li>Java</li>
+                  <li>JavaFX</li>
+                  <li>JUnit</li>
+                </ul>
               </div>
           </div>
         </div>

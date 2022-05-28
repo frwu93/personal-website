@@ -18,7 +18,7 @@
     display: flex;
     width: 100vw;
     background-color: #809bce;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     height: min(70px, 12vh);
     overflow: hidden;
@@ -38,7 +38,7 @@
 
 
 .nav-links {
-    color:#404756;
+    color:#E2E4E8;
     text-decoration: none;
     font-family: 'Poppins', serif;
     font-size: 15px;
@@ -53,11 +53,11 @@
 }
 
 .nav-links:hover {
-    color: #eaf0f5;
+    color: #3A3B3C;
     transition: all 0.2s ease-out;
 }
 
-.logo{
+/* .logo{
     display: flex;
     max-height:80%;
     min-width: 5%;
@@ -68,7 +68,7 @@
 .logo img {
     max-width: 100%;
     max-height: 100%;
-}
+} */
 
 .mobile-nav-toggle{
     display: none;

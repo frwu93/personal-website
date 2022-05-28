@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     height: max(90vh,600px);
-    padding-top: calc(70px + 7vh);
+    padding-top: calc(50px + 7vh);
     flex-direction: column;
     margin: auto;
 }
@@ -67,7 +67,7 @@
     visibility: hidden;
     animation: showAfter 2s 12s ease-out forwards,
                bounce 2s 12s 3 backwards;
-    /* z-index: -1; */
+    padding-bottom: min(20px, 1vh);
 }
 
 @keyframes showAfter {
@@ -103,7 +103,7 @@
 
     .title-container {
         margin-top: -10px;
-        padding-top: 10vh;
+        padding-top: 0;
         justify-content: center;
         padding-bottom: 10vh;
         /* width: 100%; */

@@ -22,6 +22,33 @@
     display: none;
 }
 
+.resume-wrapper{
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.resume{
+    background-color: #809bce;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+    color: #F7F4F3;  
+    white-space: nowrap;
+}
+
+.resume:visited{
+    color: #F7F4F3;  
+}
+
+.resume:hover{
+    color: #333639;
+    transition: 0.3s;
+}
+
+.socials-mobile{
+    display: none;
+}
+
 @media only screen and (max-width: 500px){
     .about-me-header{
         font-size: 12pt;
@@ -41,11 +68,26 @@
     }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 768px){
-    /* .about-me-header{
-        font-size: 12pt;
-    } */
+@media only screen and (max-width: 768px){
+    .socials-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
 
+    .socials-mobile a{
+        padding: 0 30px;
+        fill: #a7bed3;
+
+    }
+
+    .social-mobile a:hover{
+        fill: #3A3B3C;
+        padding: 15px 0;
+        transition: 0.3s;
+    }
+    
 }
 
 @media only screen and (max-width: 900px) and (orientation: landscape) {

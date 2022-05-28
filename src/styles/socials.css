@@ -1,0 +1,51 @@
+
+.socials-container{
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: min(40px, 1.6vw);
+    right: auto;
+    z-index: 10;
+}
+
+.socials-list{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.social-icon{
+    fill: #a7bed3;
+    padding: 15px 0;
+
+}
+
+.social-icon a{
+    fill: #a7bed3;
+}
+
+.social-icon a:hover{
+    fill: #333639;
+    padding: 15px 0;
+    transition: 0.3s;
+}
+
+.v-line {
+    height: 80px;
+    border-left: solid #a7bed3 2px; 
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px){
+    .socials-container{
+        display: none;
+    }
+}
+
+
+
+  

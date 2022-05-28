@@ -5,6 +5,7 @@ import Experience from './components/experience.jsx'
 import Navigation from './components/navbar.jsx'
 import Projects from './components/projects.jsx'
 import Contact from './components/contact.jsx'
+import Socials from './components/socials.jsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Experience> </Experience>
       <Projects></Projects>
       <Contact></Contact>
+      <Socials></Socials>
       {/* <Title></Title>
       <About></About>
       <Experience> </Experience>
