@@ -1,6 +1,6 @@
-import React, { Component,useState } from 'react';
+import React, { Component } from 'react';
 import '../styles/navbar.css';
-import logo from '../media/logo.png';
+// import logo from '../media/logo.png';
 
 class Navigation extends Component {
     
