@@ -12,11 +12,33 @@ class Experience extends Component {
           </div>
           <Tabs >
             <TabList>
+              <Tab>Meta Inc.</Tab>
               <Tab>Amazon Web Services Inc.</Tab>
               <Tab>Duke GCB</Tab>
               <Tab>Duke Impact Investing Group</Tab>
               <Tab>Kline & Co.</Tab>
             </TabList>
+
+            <TabPanel>
+              <div className="job-position">Software Engineer Intern @ Meta (formerly Facebook)</div>
+              <div className="location">New York, NY</div>
+              <div className="dates">May 2022 - Aug 2022</div>
+              <div className="bullet-list">
+                <ul>
+                  <li>
+                  Implemented A/B testing framework to support new multi-merchant recommendation model for injected feed units under shoppable media on Instagram’s home feed, pending upper-level ship decision
+                  </li>
+
+                  <li>
+                  Built out product tagging appeals pages using Bloks on the Instagram app for sellers as part of Meta's business integrity workflows
+                  </li>
+
+                  <li>
+                  Upgraded internal tooling to support debugging views for seller promotions and discounts on the Instagram storefront
+                  </li>
+                </ul>
+              </div>   
+            </TabPanel>
 
             <TabPanel>
               <div className="job-position">Software Development Engineer Intern @ AWS</div>

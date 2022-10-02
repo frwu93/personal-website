@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import me from '../media/me.jpg';
-import resume from '../media/FranklinWu_Resume.pdf';
+import resume from '../media/FranklinWu_ResumeCS_2022.pdf';
 
 import '../styles/about.css';
 
@@ -14,7 +14,7 @@ class About extends Component {
           <img src={me} alt="Me" className='me-mobile'/>
           <div className="about-me-text">
             <p>
-              Hi, I'm Franklin! I'm currently a junior studying at Duke University majoring in Computer Science with a concentration in AI/ML and minoring in Biology and Chemistry.
+              Hi, I'm Franklin! I'm currently a senior studying at Duke University majoring in Computer Science with a concentration in AI/ML and minoring in Biology and Chemistry.
               My interests lie broadly at the intersection between technology and medicine. In particular, I'm passionate about exploring ways in which bioinformatics, machine learning, and software
               can improve health outcomes across the spectrum.
               <br/><br/>
@@ -24,10 +24,10 @@ class About extends Component {
               Finally, I also work with several professors in the Computational Biology Department, conducting research on cancer mutations
               and snoRNAs using whole genome sequencing.
               <br/><br/>
-              This past summer, I was a software development engineer intern at Amazon Web Services (AWS) in Boston, where I worked on machine learning pipelines for 
-              the Gandalf team. This coming summer, I will be working as a software engineer intern at Meta in NYC!
-              <br/><br/>
               In my free time, you can find me shooting hoops, solving the latest NYT crossword, or trying to read a book.
+              <br/><br/>
+              This past summer, I was a software engineer intern at Meta (formerly Facebook) in New York City, where I worked on Instagram's shopping features.
+              I'm currently open to full-time roles starting in 2023, so please feel free to reach out!
             </p>
           </div>
           <div className="resume-wrapper">
